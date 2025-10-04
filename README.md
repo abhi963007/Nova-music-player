@@ -1,12 +1,15 @@
-# 🎵 Harmony Music
+# 🎵 Nova Music Player
 
 A beautiful music streaming app powered by YouTube Music API with Material Design 3.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Nova--Music--Player-blue?logo=github)](https://github.com/abhi963007/Nova-music-player)
+[![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue?logo=flutter)](https://flutter.dev)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## ✨ Features
 
 - 🎵 **Stream Music** - Access YouTube Music's entire catalog without login
 - 🔍 **Smart Search** - Search for songs, albums, artists, and playlists
-- 🎨 **Material Design 3** - Beautiful, modern UI following Google's latest design system
 - 🎧 **Advanced Player** - Full-featured audio player with queue management
 - 📻 **Radio Mode** - Discover new music based on your current song
 - 🎭 **Dark/Light Theme** - Automatic theme switching based on system preferences
@@ -34,8 +37,8 @@ This app uses the same architecture documented in `HOW_YT_MUSIC_WORKS_WITHOUT_LO
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/harmony-music.git
-cd harmony-music
+git clone https://github.com/abhi963007/Nova-music-player.git
+cd Nova-music-player
 ```
 
 2. Install dependencies:
