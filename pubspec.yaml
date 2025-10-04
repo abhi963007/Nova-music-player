@@ -1,0 +1,78 @@
+name: harmony_music
+description: A beautiful music streaming app powered by YouTube Music API
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Material Design
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  smooth_page_indicator: ^1.1.0
+
+  # State Management
+  get: ^4.6.6
+  provider: ^6.1.2
+
+  # Networking
+  dio: ^5.7.0
+  http: ^1.2.0
+
+  # YouTube Integration
+  youtube_explode_dart:
+    git:
+      url: https://github.com/anandnet/youtube_explode_dart.git
+
+  # Audio Player
+  just_audio: ^0.9.38
+  just_audio_background: ^0.0.1-beta.11
+  audio_service: ^0.18.14
+  audio_session: ^0.1.19
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.3
+  shared_preferences: ^2.2.3
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.0
+  collection: ^1.18.0
+  rxdart: ^0.27.7
+  equatable: ^2.0.5
+
+  # Permissions & System
+  permission_handler: ^11.3.1
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # fonts:
+  #   - family: ProductSans
+  #     fonts:
+  #       - asset: assets/fonts/ProductSans-Regular.ttf
+  #       - asset: assets/fonts/ProductSans-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/ProductSans-Medium.ttf
+  #         weight: 500
